@@ -10,19 +10,20 @@ int main() {
 	scanf("%d", &b);
 	printf("\nInserisci c: ");
 	scanf("%d", &c);
+
+	int min;
 	
-	if(a > b && a > c) {
-		printf("\n%d\n", a);
+	if(a > c) {
+		min = c;
+	} else {
+		min = a;
 	}
-	else {
-		if(b > a && b > c) {
-			printf("\n%d\n", b);
-		}
-		else {
-			printf("\n%d\n", c);
-		}
+
+	if(b < min) {
+		min = b;
 	}
-	
+
+	printf("\n%d\n", min);
 	
 	return 0;
 }
