@@ -10,5 +10,5 @@ detti A e B, e determini le seguenti informazioni, stampando a video:
 porta al risultato massimo, e quale è questo valore massimo.
 
 *Suggerimento:* Nel punto 4, il valore massimo della somma di A e B si 
-può ottenere sommando il valore di A e di B.
+può ottenere sommando il valore assoluto di A e di B.
 
