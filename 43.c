@@ -12,30 +12,31 @@ int main() {
 	int somma = a + b;
 	
 	if(b < 0) {
-	printf("\nNegativo");
+		printf("\nb è negativo");
 	} else {
-	printf("\nPositivo");
+		printf("\nb è positivo");
 	} 
 	
 	if(a % 2 == 0) {
-	printf("\nPari");
+			printf("\na è pari");
 	} else {
-	printf("\nDispari");
+		printf("\na è dispari");
 	} 
 	
-	printf("\n%d\n", somma);
+	printf("\nSomma : %d\n", somma);
 	
-	if(a < 0 ) {
-	a = a * -1;
-	} else {
-	if(b < 0) {
-	b = b * -1;
-	
+	if(a < 0) {
+		a = a * -1;
+	} else { 
+		if(b < 0) {
+			b = b * -1;
+		}
+	}
+			
 	printf("\n%d\n", a + b);
-	} 
-	} 
+		
 	
-	
+			
 
 	
 	return 0;
