@@ -18,7 +18,7 @@ int main() {
 	} 
 	
 	if(a % 2 == 0) {
-			printf("\na è pari");
+		printf("\na è pari");
 	} else {
 		printf("\na è dispari");
 	} 
