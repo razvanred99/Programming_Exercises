@@ -8,11 +8,10 @@ int main() {
     printf("Inserisci la lunghezza della stringa: ");
     scanf("%d", &n);
     
-    
-       int i = 0;
+    int i = 0;
 
     while(i < n) {
-        int bit = -1;
+    	int bit = -1;
 
         while(bit != 0 && bit != 1) {  
            
