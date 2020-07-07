@@ -2,7 +2,7 @@
 
 ## Descrizione del problema
 
-Il fattoriale di un numero naturale positivo ```n``` maggiore di 1  è dato dal prodotto dei numeri da 1 a ```n-1```. Il fattoriale di 1 è 1. Per convenzione, anche il fattoriale di 0 è 1.
+Il fattoriale di un numero naturale positivo ```n``` maggiore di 1  è dato dal prodotto dei numeri da 1 a ```n``` inclusi. Il fattoriale di 1 è 1. Per convenzione, anche il fattoriale di 0 è 1.
 
 ## Requisiti
 
